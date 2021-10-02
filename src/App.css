@@ -24,15 +24,21 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+input{
+  height: 40px;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+font-weight: bold;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+padding: 10px 20px;
+}
+::placeholder{
+  text-transform: capitalize;
+  font-weight: normal;
 }
